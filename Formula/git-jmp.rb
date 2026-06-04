@@ -1,19 +1,19 @@
 class GitJmp < Formula
   desc "A fast, interactive Git branch switcher with fuzzy search and recency sorting"
   homepage "https://github.com/pkitazos/git-jmp"
-  version "0.2.0"
+  version "0.2.1"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/pkitazos/git-jmp/releases/download/v0.2.0/git-jmp-aarch64-apple-darwin.tar.xz"
-    sha256 "711b435733225a0d6fff8dafce55b7b8890f017a768171e433db9ee0a2bfe924"
+    url "https://github.com/pkitazos/git-jmp/releases/download/v0.2.1/git-jmp-aarch64-apple-darwin.tar.xz"
+    sha256 "a6709327d521f83c0f62d4503cc3e56467074031d704bd211b703e5700d19425"
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/pkitazos/git-jmp/releases/download/v0.2.0/git-jmp-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "fa0a3cec6ddd7c00b6b4b400fb898620ea7ffb93d3760be087b745cef0c8d990"
+      url "https://github.com/pkitazos/git-jmp/releases/download/v0.2.1/git-jmp-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "e97774dacd029759ea5caa18cf0f7ef313a56758d1470c58b4447c6eab5e6de0"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/pkitazos/git-jmp/releases/download/v0.2.0/git-jmp-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "fd59818e34117e8845bc5253b36124cc4c3cfb6187c38714d96bce60ccb3be75"
+      url "https://github.com/pkitazos/git-jmp/releases/download/v0.2.1/git-jmp-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e6014df86a1c2c5eae8186e03315b874685f023f94d98194025c65c9a49c9c4d"
     end
   end
   license "MIT"
